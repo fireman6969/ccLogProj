@@ -7,10 +7,10 @@ const { ccclass, property } = _decorator;
 export class LogUtility {
  
     public static log(str : string) : void{
-        log(str);
+        log("V2 Log: " +str);
     }
 
     public static logWarning(str : string) : void{
-        log("Warning: " + str);
+        log("V2 Log - Warning: " + str);
     }
 }
